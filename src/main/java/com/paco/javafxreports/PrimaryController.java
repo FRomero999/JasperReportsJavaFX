@@ -10,7 +10,7 @@ import net.sf.jasperreports.engine.JRException;
 public class PrimaryController {
 
     @FXML
-    private void switchToSecondary() throws IOException {
+    private void viewReport() throws IOException {
 
         try {
             new Report().showReport();
